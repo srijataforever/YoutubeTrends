@@ -16,6 +16,7 @@ USdata = LOAD '/home/vagrant/youtube/USvideos.csv' USING org.apache.pig.piggyban
 U = UNION CAdata, DEdata, FRdata, GBdata, USdata;
 
 -- Selecting limited number of columns 
+-- video_id,trending_date,title,channel_title,publish_time,tags,views,likes,dislikes,comment_count,country
 limitedData = FOREACH U GENERATE $0 .. $3, $5 .. $10, $14;
 
 -- storing data
