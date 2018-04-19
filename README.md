@@ -24,3 +24,5 @@ Stephen: Queries in HIVE or SQL
 Srijata: SPARK and Visualization, 
 Bryan: Visualization and Queries  
 Lokesh: Report writing and tutorial
+
+Location of data files: https://drive.google.com/drive/folders/1pldbtjFQyaPZ4_ffRgQttIlLg18HzYYG?usp=sharing
